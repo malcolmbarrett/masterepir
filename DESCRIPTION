@@ -28,3 +28,5 @@ Imports:
 Encoding: UTF-8
 Language: en-US
 LazyData: true
+URL: https://github.com/malcolmbarrett/masterepir
+BugReports: https://github.com/malcolmbarrett/masterepir/issues
