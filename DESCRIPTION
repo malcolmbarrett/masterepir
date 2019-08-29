@@ -1,0 +1,30 @@
+Package: masterepir
+Title: Install Course Materials for Mastering R for Epidemiologic Research
+Version: 0.1.0
+Authors@R: 
+    person(given = "Malcolm",
+           family = "Barrett",
+           role = c("aut", "cre"),
+           email = "malcolmbarrett@gmail.com",
+           comment = c(ORCID = "0000-0003-0299-5825"))
+Description: Install course materials for the Mastering R for Epidemiologic
+    Research.
+License: MIT + file LICENSE
+Imports: 
+    broom,
+    cowplot,
+    datasauRus,
+    gapminder,
+    GGally,
+    gganimate,
+    ggfortify,
+    mice,
+    nycflights13,
+    plotly,
+    rmarkdown,
+    sf,
+    usethis,
+    visdat
+Encoding: UTF-8
+Language: en-US
+LazyData: true
