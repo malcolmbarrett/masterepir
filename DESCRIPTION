@@ -23,6 +23,7 @@ Imports:
     gapminder,
     GGally,
     gganimate,
+    geepack,
     ggfortify,
     ggrepel,
     mice,
