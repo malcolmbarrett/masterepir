@@ -1,5 +1,6 @@
 Package: masterepir
-Title: Install Course Materials for Mastering R for Epidemiologic Research
+Title: Install Course Materials for Mastering R for
+    Epidemiologic Research
 Version: 0.1.0
 Authors@R: 
     person(given = "Malcolm",
@@ -7,26 +8,36 @@ Authors@R:
            role = c("aut", "cre"),
            email = "malcolmbarrett@gmail.com",
            comment = c(ORCID = "0000-0003-0299-5825"))
-Description: Install course materials for the Mastering R for Epidemiologic
-    Research.
+Description: Install course materials for the Mastering R for
+    Epidemiologic Research.
 License: MIT + file LICENSE
+URL: https://github.com/malcolmbarrett/masterepir
+BugReports: https://github.com/malcolmbarrett/masterepir/issues
 Imports: 
     broom,
+    cidata,
     cowplot,
     datasauRus,
+    DT,
+    flexdashboard,
     gapminder,
     GGally,
     gganimate,
     ggfortify,
+    ggrepel,
     mice,
     nycflights13,
     plotly,
     rmarkdown,
     sf,
+    shiny,
+    shinythemes,
+    skimr,
     usethis,
     visdat
+Remotes: 
+    malcolmbarrett/cidata
 Encoding: UTF-8
 Language: en-US
 LazyData: true
-URL: https://github.com/malcolmbarrett/masterepir
-BugReports: https://github.com/malcolmbarrett/masterepir/issues
+RoxygenNote: 6.1.1
