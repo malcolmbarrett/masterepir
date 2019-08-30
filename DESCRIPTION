@@ -33,6 +33,7 @@ Imports:
     shiny,
     shinythemes,
     skimr,
+    tidyverse,
     usethis,
     visdat
 Remotes: 
