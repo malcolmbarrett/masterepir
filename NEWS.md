@@ -1,5 +1,7 @@
 # masterepir 0.2.0
 
+* Charite, September 2020
+
 # masterepir 0.1.0
 
 * Initial release of course package
