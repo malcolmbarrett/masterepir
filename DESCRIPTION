@@ -1,7 +1,7 @@
 Package: masterepir
 Title: Install Course Materials for Mastering R for
     Epidemiologic Research
-Version: 0.1.0
+Version: 0.2.0
 Authors@R: 
     person(given = "Malcolm",
            family = "Barrett",
