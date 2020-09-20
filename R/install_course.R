@@ -8,9 +8,9 @@
 #'   installed
 #'
 #' @export
-install_course <- function(path = ".") {
+install_course <- function(path = NULL) {
   usethis::use_course(
     "malcolmbarrett/mastering_r_for_epi",
-    normalizePath(path)
+    destdir = path
   )
 }
