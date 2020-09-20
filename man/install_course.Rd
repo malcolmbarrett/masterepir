@@ -4,11 +4,12 @@
 \alias{install_course}
 \title{Install course materials}
 \usage{
-install_course(path = ".")
+install_course(path = NULL)
 }
 \arguments{
 \item{path}{The path on your computer where you would like the course
-installed}
+installed. If `NULL`, defaults to your Desktop or some other conspicuous
+place.}
 }
 \description{
 `install_course()` will install the course materials for the course Mastering

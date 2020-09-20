@@ -27,10 +27,16 @@ install.packages("remotes")
 remotes::install_github("malcolmbarrett/masterepir")
 ```
 
-Once you've installed the package, install the course with
+`masterepir::install_course()` will install the course materials on your computer. Then, it will open a new RStudio Project containing the files you'll need.
 
 ``` r
-masterepir::install_course("path/to/your/computer")
+masterepir::install_course()
 ```
 
-Replace "path/to/your/computer" with where on your computer you want the course installed.
+By default, this package downloads the materials to a conspicous place like your Desktop. You can also tell `install_course()` exactly where to put the materials with `path`:
+
+``` r
+masterepir::install_course(path = "a/path/on/your/computer")
+```
+
+

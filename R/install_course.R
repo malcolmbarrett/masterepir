@@ -5,7 +5,8 @@
 #' RStudio Project containing the files you'll need.
 #'
 #' @param path The path on your computer where you would like the course
-#'   installed
+#'   installed. If `NULL`, defaults to your Desktop or some other conspicuous
+#'   place.
 #'
 #' @export
 install_course <- function(path = NULL) {
