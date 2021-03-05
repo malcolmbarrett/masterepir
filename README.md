@@ -4,7 +4,6 @@
 # Install the course materials for Mastering R for Epidemiologic Research
 
 <!-- badges: start -->
-
 <!-- badges: end -->
 
 ## Installation
@@ -26,8 +25,8 @@ masterepir::install_course()
 
 By default, this package downloads the materials to a conspicous place
 like your Desktop. You can also tell `install_course()` exactly where to
-put the materials with `path`:
+put the materials with `destdir`:
 
 ``` r
-masterepir::install_course(path = "a/path/on/your/computer")
+masterepir::install_course(destdir = "a/path/on/your/computer")
 ```
