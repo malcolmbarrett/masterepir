@@ -4,10 +4,10 @@
 \alias{install_course}
 \title{Install course materials}
 \usage{
-install_course(path = NULL)
+install_course(destdir = NULL)
 }
 \arguments{
-\item{path}{The path on your computer where you would like the course
+\item{destdir}{The path on your computer where you would like the course
 installed. If `NULL`, defaults to your Desktop or some other conspicuous
 place.}
 }
