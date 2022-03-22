@@ -1,12 +1,8 @@
 Package: masterepir
-Title: Install Course Materials for Mastering R for
-    Epidemiologic Research
+Title: Install Course Materials for Mastering R for Epidemiologic Research
 Version: 0.2.0
 Authors@R: 
-    person(given = "Malcolm",
-           family = "Barrett",
-           role = c("aut", "cre"),
-           email = "malcolmbarrett@gmail.com",
+    person("Malcolm", "Barrett", , "malcolmbarrett@gmail.com", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0003-0299-5825"))
 Description: Install course materials for the Mastering R for
     Epidemiologic Research.
@@ -28,6 +24,7 @@ Imports:
     geepack,
     GGally,
     gganimate,
+    ggdag,
     ggfortify,
     ggrepel,
     mice,
