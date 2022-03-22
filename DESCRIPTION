@@ -6,13 +6,14 @@ Authors@R:
            comment = c(ORCID = "0000-0003-0299-5825"))
 Description: Install course materials for the Mastering R for
     Epidemiologic Research.
-License: CC BY 4.0
+License: CC BY 4.0 + file LICENSE
 URL: https://github.com/malcolmbarrett/masterepir
 BugReports: https://github.com/malcolmbarrett/masterepir/issues
 Imports: 
     bookdown,
     broom,
-    cidata,
+    car,
+    causaldata,
     cowplot,
     datasauRus,
     devtools,
@@ -27,24 +28,27 @@ Imports:
     ggdag,
     ggfortify,
     ggrepel,
+    ggtext,
+    gtsummary,
+    here,
     mice,
     nycflights13,
     patchwork,
     plotly,
+    ragg,
     rmarkdown,
     roxygen2,
     sf,
     shiny,
     shinythemes,
     skimr,
+    smd,
     targets,
     tidyverse (>= 1.3.0),
     usethis,
     visdat
 Remotes: 
-    Financial-Times/ftplottools,
-    malcolmbarrett/cidata
+    Financial-Times/ftplottools
 Encoding: UTF-8
 Language: en-US
-LazyData: true
 RoxygenNote: 7.1.1
