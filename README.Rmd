@@ -27,19 +27,17 @@ install.packages("remotes")
 remotes::install_github("malcolmbarrett/masterepir")
 ```
 
-`masterepir::install_course()` will install the course materials on your computer. Then, it will open a new RStudio Project containing the files you'll need.
+`masterepir::use_module()` will install the materials for a given module on your computer. Then, it will open a new RStudio Project containing the files you'll need.
 
 ``` r
-masterepir::install_course()
+masterepir::use_module("module_name")
 ```
 
-By default, this package downloads the materials to a conspicous place like your Desktop. You can also tell `install_course()` exactly where to put the materials with `destdir`:
+By default, this package downloads the materials to a conspicuous place like your Desktop. You can also tell `use_module()` exactly where to put the materials with `destdir`:
 
 ``` r
-masterepir::install_course(destdir = "a/path/on/your/computer")
+masterepir::use_module("module_name", destdir = "a/path/on/your/computer")
 ```
-
-
 
 ## License
 [![forthebadge](https://forthebadge.com/images/badges/cc-by.svg)](https://creativecommons.org/licenses/by/4.0/)
