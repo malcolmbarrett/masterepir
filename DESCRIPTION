@@ -20,6 +20,7 @@ Imports:
     distill,
     DT,
     flexdashboard,
+    ftplottools (>= 0.1.3),
     gapminder,
     geepack,
     GGally,
@@ -51,3 +52,5 @@ Imports:
 Encoding: UTF-8
 Language: en-US
 RoxygenNote: 7.2.1
+Remotes:  
+    malcolmbarrett/ftplottools
