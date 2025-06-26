@@ -31,6 +31,7 @@ Imports:
     gtsummary,
     here,
     hexbin,
+    labelled,
     mice,
     nycflights13,
     patchwork,
@@ -49,8 +50,8 @@ Imports:
     tidyverse (>= 1.3.0),
     usethis,
     visdat
+Remotes: 
+    malcolmbarrett/ftplottools
 Encoding: UTF-8
 Language: en-US
 RoxygenNote: 7.2.1
-Remotes:  
-    malcolmbarrett/ftplottools
