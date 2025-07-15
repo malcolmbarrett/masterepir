@@ -12,7 +12,9 @@ BugReports: https://github.com/malcolmbarrett/masterepir/issues
 Imports: 
     bookdown,
     broom,
+    broom.helpers,
     car,
+    cardx,
     causaldata,
     cowplot,
     datasauRus,
