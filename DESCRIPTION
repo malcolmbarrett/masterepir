@@ -36,6 +36,7 @@ Imports:
     labelled,
     mice,
     nycflights13,
+    pak,
     patchwork,
     performance,
     plotly,
