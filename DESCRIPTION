@@ -42,6 +42,7 @@ Imports:
     ragg,
     rmarkdown,
     roxygen2,
+    rstudioapi,
     see,
     sf,
     shiny,
